@@ -5,6 +5,44 @@
 	        <link>https://github.com/SidhuK/WardenApp</link>
 	        <description>Most recent version of Warden</description>
 	        <language>en</language>
+
+	        <item>
+	            <title>Version 1.08</title>
+	            <description><![CDATA[
+	                <h3>New</h3>
+	                <ul>
+	                <li>Added <strong>Exa</strong> as a web search provider alongside Tavily.</li>
+	                <li>Added a new <strong>Web Search Provider</strong> setting so you can choose between Tavily and Exa.</li>
+	                <li>Added Exa-specific search modes: Auto, Fast, Instant, Deep Lite, and Deep.</li>
+	                <li>Added <strong>Fireworks AI</strong> as a chat provider, including default Fireworks models and provider branding.</li>
+	                <li>Added support/community links in the app for Discord and contributing to Warden.</li>
+	                </ul>
+	                <h3>Improved</h3>
+	                <ul>
+	                <li>Web search is now provider-agnostic, making <code>/search</code>, <code>/web</code>, and <code>/google</code> work through the selected search provider.</li>
+	                <li>Web search API keys are stored separately per provider in Keychain.</li>
+	                <li>Search failures now use clearer generic "Web Search" error messages instead of Tavily-specific wording.</li>
+	                <li>Fireworks model metadata support was added for pricing, context, capabilities, and reasoning metadata where available.</li>
+	                <li>Fireworks models now participate in reasoning-effort controls when supported.</li>
+	                </ul>
+	                <h3>Community</h3>
+	                <ul>
+	                <li>Added an optional startup prompt for supporting Warden.</li>
+	                <li>Added an optional startup prompt for joining the Warden Discord.</li>
+	                <li>Both prompts can be dismissed or suppressed.</li>
+	                </ul>
+	                <p><strong>Full diff:</strong> <a href="https://github.com/SidhuK/WardenApp/compare/v1.07...main">https://github.com/SidhuK/WardenApp/compare/v1.07...main</a></p>
+	            ]]></description>
+	            <pubDate>Fri, 15 May 2026 05:20:10 +0000</pubDate>
+	            <sparkle:version>1.08</sparkle:version>
+	            <sparkle:shortVersionString>1.08</sparkle:shortVersionString>
+	            <enclosure url="https://github.com/SidhuK/WardenApp/releases/download/v1.08/Warden.zip"
+	                       sparkle:version="1.08"
+	                       sparkle:shortVersionString="1.08"
+	                       type="application/zip"
+	                       length="16242338"
+	                       sparkle:edSignature="TgcDphek77u+3bEamNzIM2LAnNhlmS3oJ7eSZtgIbGC3jsjs5KH04FDiAG9d2RwbCkBvybge/FYOswGv28AJAw==" />
+	        </item>
 	        
 	        <item>
 	            <title>Version 1.07</title>
